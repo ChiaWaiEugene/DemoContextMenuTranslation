@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
         else if(v == tvTranslatedText2) {
             wordClicked = "2nd";
         }
+
+        menu.setHeaderTitle(wordClicked + " row is clicked");
     }
 
     @Override
